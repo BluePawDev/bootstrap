@@ -1,0 +1,12 @@
+.col-sm-2 {
+  border: 1px black solid;
+  height: 40px;
+}
+
+.logo {
+  background-color: blue;
+}
+
+.name {
+  background-color: green;
+}
