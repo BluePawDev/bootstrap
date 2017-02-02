@@ -3,6 +3,10 @@ body {
   font-size: 15px;
 }
 
+.headerRow {
+  background-color: gray;
+}
+
 .pageHeader {
   width: 80%;
   margin: 5px 10%;
