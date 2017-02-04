@@ -6,6 +6,7 @@
   <title>Sandbox: Bootstrap</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 
 </head>
 
@@ -28,8 +29,20 @@
         <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
           <li><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="about.html" data-toggle="dropdown" data-target="#">About <span class="caret"></span></a>
+          </li>
+          <ul class="dropdown-menu">
+            <li><a href="#">Our Passion</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Contact Us!</a></li>
+            <li class="divider"></li>
+            <li><a href="#"> Follow Us!</a></li>
+            <li><a href="#"> Like Us!</a></li>
+
+          </ul>
+          <!-- <li><a href="contact.html">Contact</a></li> -->
         </ul>
       </div>
       <!-- Navbar End -->
@@ -107,11 +120,13 @@
         </ul>
       </div>
       <div class="col-sm-4">
-        <h4>Contact Us</h4>
+        <h4>Connect with Us!</h4>
         <ul class="list-unstyled">
-          <li><i class="glyphicon glyphicon-map-marker"></i> Minneapolis, MN</li>
-          <li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:jaruby@me.com"> Blue Paw Dev</a></li>
-          <li><i class="glyphicon glyphicon-phone"></i> 952-277-9414</li>
+          <li><i class="glyphicon glyphicon-map-marker"></i> Visit Us!</li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:jaruby@me.com"> Email Us!</a></li>
+          <li><i class="fa fa-phone-square" aria-hidden="true"></i> Call Us!</li>
+          <li><i class="fa fa-facebook-official"></i><a href="#"> Like Us!</a></li>
+          <li><i class="fa fa-twitter-square"><a href="#"> Follow Us!</a></i></li>
 
         </ul>
 
